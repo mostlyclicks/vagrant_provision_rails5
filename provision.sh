@@ -20,7 +20,8 @@ apt-get -y install ruby1.9.1-dev
 command curl -sSL https://rvm.io/mpapis.asc | gpg --import -
 curl -sSL https://get.rvm.io | bash -s stable
 
-source /home/vagrant/.rvm/scripts/rvm
+# source /home/vagrant/.rvm/scripts/rvm
+source /etc/profile.d/rvm.sh
 
 rvm install 2.4.2
 rvm use 2.4.2 --default
