@@ -17,11 +17,10 @@ apt-get -y install nodejs
 apt-get -y install postgresql-9.4
 apt-get -y install ruby1.9.1-dev
 
-gpg --keyserver hkp://keys.gnupg.net --recv-keys D39DC0E3
+command curl -sSL https://rvm.io/mpapis.asc | gpg --import -
 curl -sSL https://get.rvm.io | bash -s stable
 
-source /usr/local/rvm/scripts/rvm
-echo "source /usr/local/rvm/scripts/rvm" >> ~/.bashrc
+source /home/vagrant/.rvm/scripts/rvm
 
 rvm install 2.4.2
 rvm use 2.4.2 --default
