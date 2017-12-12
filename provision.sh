@@ -17,7 +17,8 @@ apt-get -y install nodejs
 apt-get -y install postgresql-9.4
 apt-get -y install ruby1.9.1-dev
 
-command vagrant ssh
+
+### execute these commands after vagrant ssh ###
 
 # command curl -sSL https://rvm.io/mpapis.asc | gpg --import -
 # curl -sSL https://get.rvm.io | bash -s stable
@@ -28,7 +29,7 @@ command vagrant ssh
 # rvm use 2.4.2 --default
 
 # echo "gem: --no-ri --no-rdoc" > ~/.gemrc
-
+# cd /vagrant
 # gem install rails -v 5.1.4
 
 echo "-------------------- creating postgres vagrant role with password vagrant"
