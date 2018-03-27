@@ -14,7 +14,7 @@ apt-get -y install git-core curl zlib1g-dev build-essential libssl-dev libreadli
 apt-get -y install libgdbm-dev libncurses5-dev automake libtool bison libffi-dev
 apt-get -y install imagemagick
 apt-get -y install nodejs
-apt-get -y install postgresql-9.6
+apt-get -y install postgresql-9.6.3
 apt-get -y install ruby1.9.1-dev
 
 
